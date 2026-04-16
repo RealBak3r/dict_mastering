@@ -1,0 +1,57 @@
+{
+    "store": "TechHub",
+    "currency": "CAD",
+    "orders": [
+        {
+            "order_id": "A001",
+            "customer": {"id": 1, "name": "Alice", "tier": "gold"},
+            "date": "2025-11-01",
+            "items": [
+                {"product": "Laptop", "category": "electronics", "price": 1200, "qty": 1, "discount": 0.1},
+                {"product": "Mouse", "category": "accessories", "price": 25, "qty": 2, "discount": 0}
+            ],
+            "shipping": {"method": "express", "cost": 30}
+        },
+        {
+            "order_id": "A002",
+            "customer": {"id": 2, "name": "Bob", "tier": "silver"},
+            "date": "2025-11-03",
+            "items": [
+                {"product": "Keyboard", "category": "accessories", "price": 80, "qty": 1, "discount": 0.05},
+                {"product": "Monitor", "category": "electronics", "price": 400, "qty": 2, "discount": 0.15},
+                {"product": "Cable", "category": "accessories", "price": 15, "qty": 3, "discount": 0}
+            ],
+            "shipping": {"method": "standard", "cost": 10}
+        },
+        {
+            "order_id": "A003",
+            "customer": {"id": 1, "name": "Alice", "tier": "gold"},
+            "date": "2025-11-05",
+            "items": [
+                {"product": "Headphones", "category": "audio", "price": 200, "qty": 1, "discount": 0.2},
+                {"product": "Laptop", "category": "electronics", "price": 1200, "qty": 1, "discount": 0.1}
+            ],
+            "shipping": {"method": "express", "cost": 30}
+        },
+        {
+            "order_id": "A004",
+            "customer": {"id": 3, "name": "Charlie", "tier": "bronze"},
+            "date": "2025-11-07",
+            "items": [
+                {"product": "Mouse", "category": "accessories", "price": 25, "qty": 1, "discount": 0},
+                {"product": "Keyboard", "category": "accessories", "price": 80, "qty": 1, "discount": 0}
+            ],
+            "shipping": {"method": "standard", "cost": 10}
+        },
+        {
+            "order_id": "A005",
+            "customer": {"id": 2, "name": "Bob", "tier": "silver"},
+            "date": "2025-11-09",
+            "items": [
+                {"product": "Monitor", "category": "electronics", "price": 400, "qty": 1, "discount": 0.15},
+                {"product": "Headphones", "category": "audio", "price": 200, "qty": 2, "discount": 0.2}
+            ],
+            "shipping": {"method": "express", "cost": 30}
+        }
+    ]
+}
