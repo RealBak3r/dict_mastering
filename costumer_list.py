@@ -18,6 +18,7 @@ def main():
             total_cost = item["price"] * item["qty"] * (1 - item["discount"])
             ini_value = dicto.get(name, 0)
             dicto[name] = total_cost + ini_value
+        #I had this line below do - because I was wondering how much we made profit on each but on worries I just fixed it
         dicto[name] += order["shipping"].get("cost", 0)
     
     print(dicto)
